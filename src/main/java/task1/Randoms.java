@@ -6,7 +6,7 @@ public class Randoms implements Iterable<Integer>{
 
     protected Random random;
 
-    private List<Integer> list;
+    private final List<Integer> list;
 
     public Randoms(int min,int max){
         list = new ArrayList<>();
